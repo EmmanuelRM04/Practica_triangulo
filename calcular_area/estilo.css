@@ -1,0 +1,16 @@
+body{
+    background-color: darkgray;
+}
+form{
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 3px solid #101010;
+    border-radius: 1em;
+    text-align: center;
+    background-color: rgb(244, 181, 80);
+}
+img{
+width: 250px;
+
+}

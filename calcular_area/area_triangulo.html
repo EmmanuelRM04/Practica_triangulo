@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="area.js"></script>
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Calcular el area de un triangulo</title>
+</head>
+<body>
+    <form>
+        <h2> Calcular el area de un triangulo</h2>
+        <img src="./imagenes/tipos_de_triangulos_segun_sus_lados_53495_0_600.jpg" alt="">
+        <p><input type="number" name="L1" id="l1" placeholder="Ingrese el primer lado" onblur="cap1()"></p>
+        <p><input type="number" name="L2" id="l2" placeholder="Ingrese el segundo lado" onblur="cap2()"></p>
+        <p><input type="number" name="L3" id="l3" placeholder="Ingrese el tercer lado" onblur="cap3()"></p>
+        <input type="button" value="Area" onclick="area()"/>
+        <input type="button" value="Perimetro" onclick="peri()"/>
+        <input type="button" value="Tipo de triangulo" onclick="vali()"/>
+        <br>
+        <h2 id="mm"></h2>
+    </form>
+</body>
+</html>
